@@ -1,4 +1,2 @@
 # darkfish
 DarkFish
-
-okayfds
