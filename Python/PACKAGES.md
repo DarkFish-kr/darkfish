@@ -14,18 +14,6 @@ index 0000000000000000000000000000000000000000..dabc8f8f4c74def9755ab38b8d0fce61
 +- **Features:** `moveTo`, `moveRel`, `click`, `dragTo`, `position`, and fail-safe hotkey (Ctrl+C or moving the mouse to a corner).
 +- **When to use:** General-purpose desktop automation and GUI scripting.
 +
-+### Frequently used `pyautogui` functions (10)
-+- `size()`: Returns the screen resolution so you can randomize coordinates safely within bounds.
-+- `position()`: Reads the current mouse coordinates; useful for debugging target locations.
-+- `moveTo(x, y, duration=0)`: Moves the mouse to absolute screen coordinates, optionally over a duration.
-+- `moveRel(xOffset, yOffset, duration=0)`: Moves the mouse relative to its current position.
-+- `click(x=None, y=None, button="left")`: Clicks (defaults to left) at the current or given coordinates.
-+- `doubleClick(x=None, y=None, button="left")`: Performs a double-click.
-+- `rightClick(x=None, y=None)`: Convenience helper for right-clicks.
-+- `scroll(clicks, x=None, y=None)`: Scrolls vertically from the current or specified position.
-+- `dragTo(x, y, duration=0, button="left")`: Drags the mouse to absolute coordinates while holding the specified button.
-+- `typewrite(message, interval=0.0)`: Types text with an optional delay between keystrokes for more human-like input.
-+
 +## 2. `pynput`
 +- **Strengths:** Fine-grained control of mouse and keyboard input with event listeners.
 +- **Features:** `Controller` for moving/clicking, listeners for responding to system input, supports relative and absolute movement.
