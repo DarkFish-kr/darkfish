@@ -2,6 +2,7 @@
 -DarkFish
  
 -made Data folder - 2025.11.27
+
 \ No newline at end of file
 +## Random mouse mover using pyautogui
 +The repository includes `random_mouse.py`, a beginner-friendly script that moves the mouse to random on-screen points and clicks. Every line is commented so you can follow along while it runs.
