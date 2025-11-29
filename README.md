@@ -1,9 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/README.md b/README.md
-index 7f485b584c2ef0c241885ed8d11f48c6eff97985..6c98e0e5a5ace5d65f85ce0922824e5ec9c0be65 100644
---- a/README.md
-+++ b/README.md
-@@ -1,4 +1,24 @@
  # darkfish
 -DarkFish
  
