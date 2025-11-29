@@ -10,5 +10,5 @@ rm .git/index.lock
 
 My Coding Pratice.
 
-Python file. \br
+Python file.
     - random_mouse.py
