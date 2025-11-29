@@ -26,9 +26,6 @@
 +- The `__main__` block starts the routine with 10 movements/clicks and pauses of about a second, which you can tweak for faster or slower pacing.
 +
 +Use `Ctrl+C` to stop the script at any time. Increase `count` for more clicks or adjust `move_duration`/`pause_between` to change the speed.
- 
-EOF
-)
 
 git push origin main (원격과 동기화)
 git status (변경 확인)
